@@ -5,7 +5,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "laravel/scout": "^8.4",
+        "laravel/scout": "^5.0|^6.0|^7.0|^8.0",
         "foolz/sphinxql-query-builder": "^2.0"
     },
     "require-dev": {
@@ -15,18 +15,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Constantable\\SphinxScout\\ServiceProvider"
+                "Emaxe\\SphinxScout\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Constantable\\SphinxScout\\": "src/"
+            "Emaxe\\SphinxScout\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Constantable\\SphinxScout\\Tests\\": "tests/"
+            "Emaxe\\SphinxScout\\Tests\\": "tests/"
         }
     }
 }
