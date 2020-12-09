@@ -1,6 +1,6 @@
 <?php
 
-namespace Constantable\SphinxScout;
+namespace Emaxe\SphinxScout;
 
 use Foolz\SphinxQL\Drivers\Pdo\Connection;
 use Foolz\SphinxQL\SphinxQL;
